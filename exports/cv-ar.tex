@@ -1,0 +1,140 @@
+\documentclass[10pt,a4paper]{article}
+\usepackage{polyglossia}
+\setmainlanguage{arabic}
+\newfontfamily\arabicfont[Script=Arabic]{DejaVu Sans}
+\usepackage[a4paper,margin=1.25cm]{geometry}
+\usepackage[hidelinks]{hyperref}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage{xcolor}
+\definecolor{graytext}{gray}{0.35}
+\definecolor{accent}{HTML}{1A4F8B}
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+\setlist[itemize]{leftmargin=1em,itemsep=0.5pt,topsep=1pt,parsep=0pt}
+\titleformat{\section}{\normalsize\bfseries\color{accent}}{}{0pt}{}[\vspace{-3pt}\rule{\linewidth}{0.4pt}]
+\titlespacing*{\section}{0pt}{6pt}{6pt}
+\newcommand{\cventry}[3]{\textbf{#1}\ \textcolor{graytext}{· #2}\hfill\textcolor{graytext}{\small #3}\par}
+\newcommand{\tagline}[1]{\textcolor{graytext}{\small #1}\par}
+\begin{document}
+
+{\LARGE\bfseries محمد رافع التونكتي}\hfill{\small \LR{DevOps} و \LR{DevSecOps}}\par
+\vspace{3pt}
+{\footnotesize \href{https://linkedin.com/in/mohamed-rafaa-tounekti}{\LR{linkedin.com/in/mohamed-rafaa-tounekti}} \textcolor{graytext}{·} \href{https://wa.me/21622304599}{\LR{+216 22 304 599}} \textcolor{graytext}{·} \href{mailto:rafaabou@gmail.com}{\LR{rafaabou@gmail.com}} \textcolor{graytext}{·} بيلا فيستا، ساو باولو – البرازيل \textcolor{graytext}{·} \href{https://github.com/rafaabou}{\LR{github.com/rafaabou}} \textcolor{graytext}{·} \href{https://devops-devsecops.kdns.fr/}{\LR{devops-devsecops.kdns.fr}}}\par
+\vspace{2pt}\hrule\vspace{2pt}
+\section*{الملف الشخصي}
+مهندس \LR{DevOps} و \LR{DevSecOps} متخصص في بناء خطوط \LR{CI/CD} موثوقة، تأمين مجموعات \LR{Kubernetes}، وأتمتة البنية التحتية على نطاق واسع. أعمل على \LR{AWS}، أنظمة \LR{Linux}، والبيئات الحاوية، مع خبرة عميقة في \LR{GitLab CI/CD}، \LR{Terraform}، \LR{Ansible}، وأكوام المراقبة.\par
+\section*{المهارات التقنية}
+\textbf{السحابة}: \LR{AWS (EC2, EKS, ECR, IAM, S3, VPC, Lambda)}\par
+\textbf{الحاويات والتنسيق}: \LR{Docker, Kubernetes, Helm, Kustomize, Istio, OPA, Kyverno}\par
+\textbf{\LR{CI/CD} و \LR{GitOps}}: \LR{GitLab CI/CD, Jenkins, ArgoCD, Flux CD, GitLab Runners}\par
+\textbf{البنية التحتية ككود}: \LR{Terraform, Ansible}\par
+\textbf{الأمان}: \LR{Trivy, GitLeaks, Semgrep, OWASP ZAP, SonarQube, Checkov, KubeLinter, Falco, HashiCorp Vault, AWS Secrets Manager}\par
+\textbf{المراقبة والتسجيل}: \LR{Prometheus, Grafana, Loki, Alertmanager}\par
+\textbf{الشبكات · البرمجة · قواعد البيانات · التخزين}: \LR{Nginx Ingress, Traefik, Cert-Manager, External-DNS, Bash, Python, PostgreSQL, MongoDB, Redis, NFS, Harbor, Nexus}\par
+\textbf{المحاكاة الافتراضية · أدوات الذكاء الاصطناعي}: \LR{KVM, VirtualBox, Vagrant, MCP, OpenCode, AI-assisted infra}\par
+\section*{الخبرة المهنية}
+\cventry{مهندس \LR{DevOps} و \LR{DevSecOps}}{\LR{TUNISIE SOFTWARE FACTORY \& BE-SOFTILYS}}{يونيو \LR{2025 –} أكتوبر \LR{2024}}
+\begin{itemize}
+  \item بناء خطوط \LR{GitLab CI/CD} مع فحص \LR{Trivy}، \LR{GitLeaks}، و \LR{Semgrep.} صور الحاويات الضعيفة ممنوعة قبل الانتقال
+  \item نشر أمان \LR{Zero-Trust} على مجموعات \LR{Kubernetes} باستخدام \LR{Istio mTLS}، \LR{NetworkPolicies}، و \LR{OPA Gatekeeper}
+  \item ربط \LR{HashiCorp Vault} بسياقات النشر مع التدوير الآلي للأسرار عبر \LR{External Secrets Operator}
+  \item إنشاء لوحات \LR{Prometheus} و \LR{Grafana} مع توجيه \LR{Alertmanager}؛ انخفاض ملحوظ في \LR{MTTR}
+  \item تكوين \LR{HPA} و \LR{PodDisruptionBudgets} للتعامل مع ارتفاعات الحركة بدون فقدان الطلبات
+  \item أتمتة توفير شهادات \LR{TLS} عبر \LR{Cert-Manager} لجميع موارد \LR{Ingress}
+  \item إجراء اختبارات تحقق شاملة للبنية التحتية بعد كل دورة توفير
+  \item تطبيق بوابات أمان \LR{CI/CD} مع عتبات الثغرات؛ فشل خطوط الإنتاج عند تجاوز العتبات
+  \item مركزية تتبع الثغرات في \LR{DefectDojo} لمتابعة الإصلاحات
+  \item تصحيح مشاكل تنفيذ \LR{Kubernetes — CrashLoopBackOff}، \LR{ImagePullBackOff}، أخطاء الجدولة
+  \item كتابة \LR{runbooks} ووثائق النشر؛ الاحتفاظ بتقارير التحقق
+  \item مناقشات ما قبل البيع مع عملاء محتملين حول خيارات البنية
+  \item تكوين خوادم \LR{MCP} للمساعدين الذكية للاستعلام عن بيانات \LR{Kubernetes} و \LR{CI/CD} والمراقبة
+  \item إدخال المساعدين الذكية في سير العمل اليومي لتحليل السجلات، فرز الحوادث، التشخيص
+  \item استخدام أدوات الذكاء الاصطناعي لتسريع تطوير \LR{Terraform} و \LR{Ansible}؛ أخطاء تكوين أقل
+  \item قواعد حماية الفرع مع مراجعات إلزامية وفحوصات آلية لخطوط الإنتاج
+  \item ربط \LR{Alertmanager} بـ \LR{Jira}؛ التنبيهات تولد تذاكر خدمة تلقائياً
+  \item أمان سلسلة التوريد: توليد \LR{SBOM}، توقيع \LR{Cosign}، تتبع التبعيات
+  \item نشر \LR{Falco} لأمان وقت التشغيل على أحمال عمل \LR{Kubernetes}
+\end{itemize}
+\tagline{\LR{Kubernetes · Docker · Helm · ArgoCD · GitLab CI/CD · Terraform · AWS · GitLeaks · Semgrep · Trivy · OPA Gatekeeper · Kyverno · DefectDojo · Prometheus · Grafana · Istio · HashiCorp Vault · Harbor}}
+\vspace{1pt}
+\vspace{3pt}
+\cventry{مهندس \LR{DevOps}}{\LR{DOPIFY SOFTWARE \& TECHNOLOGIES}}{أبريل \LR{2024 –} يناير \LR{2024}}
+\begin{itemize}
+  \item تصميم خطوط \LR{CI/CD} لعدة فرق مع \LR{SAST}، \LR{SCA}، وفحص الأسرار في كل بناء
+  \item أتمتة توفير الخوادم في \LR{dev}، \LR{staging}، \LR{production} مع \LR{Ansible}؛ القضاء على الانحراف اليدوي
+  \item إعداد \LR{Flux CD} لبنية تحتية تعمل بـ \LR{GitOps}؛ بيئات تعريفية وقابلة للتدقيق
+  \item نشر \LR{Grafana Loki} لتجميع السجلات المركزي؛ تحليل أسرع للأسباب الجذرية
+  \item نشر بدون توقف باستراتيجيات \LR{blue-green} و \LR{canary} باستخدام \LR{Kustomize}
+  \item تكوين \LR{Nginx Ingress Controller} مع إنهاء \LR{TLS} للتوجيه الخارجي
+  \item توفير \LR{runners GitLab} ذاتية الاستضافة مع منفذ \LR{Docker}؛ انخفاض أوقات انتظار \LR{CI}
+  \item توجيه \LR{Alertmanager} للحوادث إلى \LR{Slack} والبريد الإلكتروني؛ إخطار الأشخاص المناسبين في الوقت المناسب
+  \item أتمتة نصوص اختبار للتحقق من حالة البنية التحتية بعد التوفير
+  \item إدارة حوكمة خطوط الإنتاج وتخطيط التحول لإصدارات الإنتاج
+  \item تتبع تدهور الأداء عبر سجلات النظام والتطبيق
+  \item توثيق بنية البنية التحتية، إجراءات النشر، المشكلات المعروفة
+  \item حماية فرع \LR{Git} مع مراجعات إلزامية وفحوصات الحالة؛ بوابات جودة قبل الدمج
+\end{itemize}
+\tagline{\LR{AWS · Kubernetes · Docker · Terraform · Ansible · Flux CD · Grafana · Prometheus · GitLab CI/CD · HashiCorp Vault · Trivy · SonarQube · Kustomize · Nginx · Alertmanager}}
+\vspace{1pt}
+\vspace{3pt}
+\cventry{مهندس \LR{DevOps}}{\LR{GEO-TRACKING GROUP}}{أكتوبر \LR{2023 –} أبريل \LR{2022}}
+\begin{itemize}
+  \item إعادة بناء خطوط \LR{CI/CD}؛ تقليل وقت النشر من أيام إلى ساعات عبر \LR{15+} خدمة مصغرة
+  \item تقليل حجم صور \LR{Docker} بنسبة \LR{60\%} مع \LR{builds} متعددة المراحل؛ انخفاض تكاليف السحب والتخزين
+  \item توفير البنية التحتية \LR{AWS} مع وحدات \LR{Terraform}؛ بإصدارات، قابل للتكرار
+  \item دمج \LR{SonarQube} لفحوصات جودة الكود الآلية وتتبع الديون التقنية
+  \item كتابة قواعد تنبيه \LR{Prometheus} للكشف الاستباقي؛ انخفاض الأعطال غير المخطط لها بنسبة \LR{40\%}
+  \item أتمتة تحديثات التبعيات وتصحيحات الأمان عبر \LR{GitOps} على \LR{200+} تبعية
+  \item إدارة صور \LR{Docker} و \LR{manifests Kubernetes} في \LR{Nexus} كمصدر وحيد للحقيقة
+  \item أتمتة نسخ احتياطي لقواعد البيانات مع استعادة نقطة زمنية لـ \LR{PostgreSQL} و \LR{MySQL}
+  \item تعزيز أمان \LR{pods} مع \LR{SecurityContext} وتقسيم الشبكة عبر \LR{IPTables/UFW}
+  \item بناء مكتبات \LR{Jenkins} مشتركة قابلة لإعادة الاستخدام لتوحيد قوالب خطوط الإنتاج
+  \item إجراء اختبارات التثبيت والترقية؛ توثيق النتائج والإبلاغ عن الانحرافات
+  \item مراقبة سعة التخزين ومقاييس الأداء؛ ضبط التكوينات للتوفر
+  \item الاستجابة للحوادث وكتابة تقارير ما بعد الحادث مع خطوات المعالجة
+  \item دمج \LR{LDAP} للمصادقة المركزية
+\end{itemize}
+\tagline{\LR{Jenkins · Docker · Kubernetes · Terraform · Ansible · ArgoCD · SonarQube · Nexus · Prometheus · Grafana · Python · Bash · AWS · PostgreSQL · Cert Manager}}
+\vspace{1pt}
+\vspace{3pt}
+\cventry{مسؤول أنظمة}{مؤسسات مختلفة}{يناير \LR{2022 –} فبراير \LR{2016}}
+\begin{itemize}
+  \item إدارة خوادم \LR{Linux (RHEL, Ubuntu, Debian) —} التصحيحات، تحديثات الأمان، التحسين
+  \item أتمتة توفير \LR{VM} مع \LR{Ansible}؛ انخفاض وقت إعداد البيئة الجديدة
+  \item إدارة أجهزة التوجيه، المحولات، جدران الحماية؛ الحفاظ على سياسات الشبكة
+  \item إعداد مشاركة ملفات \LR{NFS} للوصول المركزي للتخزين عبر الفرق
+  \item تكوين \LR{DNS}، \LR{DHCP}، خدمات الشبكة الداخلية
+  \item تصميم واختبار إجراءات التعافي من الكوارث مع التحقق المنتظم من النسخ الاحتياطية
+  \item إدارة \LR{MySQL} و \LR{PostgreSQL —} النسخ الاحتياطي، الاستعادة، تحسين الأداء
+  \item تكوين قواعد جدار الحماية \LR{IPTables} و \LR{UFW} لتقسيم الشبكة وتقييد الوصول
+  \item نشر خوادم الويب \LR{Apache} و \LR{Nginx} للتطبيقات الداخلية/الخارجية
+  \item دمج \LR{Active Directory} للمصادقة المركزية عبر \LR{Linux/Windows}
+  \item إدارة حسابات المستخدمين، مفاتيح \LR{SSH}، سياسات \LR{sudo} في بيئات المؤسسات
+  \item تقديم دعم \LR{L2/L3} مع تحليل الأسباب الجذرية
+  \item مساعدة المستخدمين النهائيين مع مشاكل الأجهزة، البرامج، الشبكة؛ جلسات تدريبية
+  \item الحفاظ على توثيق عمليات تكنولوجيا المعلومات، تكوينات الشبكة، استكشاف الأخطاء
+  \item تكوين أنظمة تخزين عبر \LR{IPv4} مع العنونة والتوجيه المناسبين
+  \item العمل مع الفرق التقنية لتخطيط تحسينات البنية التحتية والأتمتة
+  \item أتمتة سير عمل التنبيه إلى التذكرة مع حل مدار بـ \LR{SLA}
+\end{itemize}
+\tagline{\LR{Linux · DHCP · DNS · Active Directory · MySQL · PostgreSQL · VMware · KVM · Ansible · Bash · VPN · Firewalls · NFS · Apache · Nginx}}
+\vspace{1pt}
+\section*{التعليم}
+\textbf{شهادة البكالوريوس}\par
+\tagline{تكنولوجيا المعلومات (شبكات وخدمات الحاسوب\LR{) · I.S.E.T. · 2011 – 2014}}
+\textbf{شهادة البكالوريا}\par
+\tagline{علوم الحاسوب \LR{· 2010 – 2011}}
+\section*{اللغات}
+العربية (لغة أم), الفرنسية (احترافي), الإنجليزية (احترافي)\par
+\section*{الإنجازات الرئيسية}
+\begin{itemize}
+  \item بنية أمان \LR{Zero-Trust} على \LR{Kubernetes}
+  \item الفحص الأمني الآلي في خطوط \LR{CI/CD}
+  \item \LR{GitOps} باستخدام \LR{ArgoCD} و \LR{Flux CD}
+  \item توفر عالي مع \LR{PDB} والتوسع التلقائي
+  \item مجموعة متكاملة للمراقبة والتنبيهات
+\end{itemize}
+\vspace{6pt}\hrule\vspace{3pt}
+{\footnotesize\color{graytext} تحليل السجلات بمساعدة الذكاء الاصطناعي · فرز الحوادث · تشخيص البنية التحتية · خوادم \LR{MCP}\par}
+\end{document}

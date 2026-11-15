@@ -1,0 +1,141 @@
+\documentclass[10pt,a4paper]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[portuguese]{babel}
+\usepackage[a4paper,margin=1.25cm]{geometry}
+\usepackage[hidelinks]{hyperref}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage{xcolor}
+\definecolor{graytext}{gray}{0.35}
+\definecolor{accent}{HTML}{1A4F8B}
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+\setlist[itemize]{leftmargin=1em,itemsep=0.5pt,topsep=1pt,parsep=0pt}
+\titleformat{\section}{\normalsize\bfseries\color{accent}}{}{0pt}{}[\vspace{-3pt}\rule{\linewidth}{0.4pt}]
+\titlespacing*{\section}{0pt}{6pt}{6pt}
+\newcommand{\cventry}[3]{\textbf{#1}\ \textcolor{graytext}{· #2}\hfill\textcolor{graytext}{\small #3}\par}
+\newcommand{\tagline}[1]{\textcolor{graytext}{\small #1}\par}
+\linespread{0.96}\selectfont
+\begin{document}
+
+{\LARGE\bfseries Mohamed Rafaa TOUNEKTI}\hfill{\small DevOps \& DevSecOps}\par
+\vspace{3pt}
+{\footnotesize \href{https://linkedin.com/in/mohamed-rafaa-tounekti}{linkedin.com/in/mohamed-rafaa-tounekti} \textcolor{graytext}{·} \href{https://wa.me/21622304599}{+216 22 304 599} \textcolor{graytext}{·} \href{mailto:rafaabou@gmail.com}{rafaabou@gmail.com} \textcolor{graytext}{·} Bela Vista, São Paulo – Brasil \textcolor{graytext}{·} \href{https://github.com/rafaabou}{github.com/rafaabou} \textcolor{graytext}{·} \href{https://devops-devsecops.kdns.fr/}{devops-devsecops.kdns.fr}}\par
+\vspace{2pt}\hrule\vspace{2pt}
+\section*{Perfil}
+Engenheiro DevOps e DevSecOps focado na construção de pipelines CI/CD confiáveis, na segurança de clusters Kubernetes e na automação de infraestrutura em escala. Atuo com AWS, sistemas Linux e ambientes conteinerizados, com experiência aprofundada em GitLab CI/CD, Terraform, Ansible e stacks de monitoramento.\par
+\section*{Competências Técnicas}
+\textbf{Cloud}: AWS (EC2, EKS, ECR, IAM, S3, VPC, Lambda)\par
+\textbf{Contêineres \& Orquestração}: Docker, Kubernetes, Helm, Kustomize, Istio, OPA, Kyverno\par
+\textbf{CI/CD \& GitOps}: GitLab CI/CD, Jenkins, ArgoCD, Flux CD, GitLab Runners\par
+\textbf{Infraestrutura como Código}: Terraform, Ansible\par
+\textbf{Segurança}: Trivy, GitLeaks, Semgrep, OWASP ZAP, SonarQube, Checkov, KubeLinter, Falco, HashiCorp Vault, AWS Secrets Manager\par
+\textbf{Monitoramento \& Logging}: Prometheus, Grafana, Loki, Alertmanager\par
+\textbf{Redes · Scripts · Banco de Dados · Armazenamento}: Nginx Ingress, Traefik, Cert-Manager, External-DNS, Bash, Python, PostgreSQL, MongoDB, Redis, NFS, Harbor, Nexus\par
+\textbf{Virtualização · Ferramentas de IA}: KVM, VirtualBox, Vagrant, MCP, OpenCode, AI-assisted infra\par
+\section*{Experiência}
+\cventry{Engenheiro DevOps \& DevSecOps}{TUNISIE SOFTWARE FACTORY \& BE-SOFTILYS}{Jun 2025 – Out 2024}
+\begin{itemize}
+  \item Construí pipelines GitLab CI/CD com escaneamento Trivy, GitLeaks e Semgrep. Imagens vulneráveis bloqueadas antes do staging
+  \item Implantei segurança zero-trust nos clusters Kubernetes com Istio mTLS, NetworkPolicies e OPA Gatekeeper
+  \item Integrei o HashiCorp Vault aos fluxos de implantação com rotação automática de segredos via External Secrets Operator
+  \item Configurei dashboards Prometheus \& Grafana com roteamento pelo Alertmanager; MTTR caiu significativamente
+  \item Configurei HPA e PodDisruptionBudgets para suportar picos de tráfego sem perder requisições
+  \item Automatizei o provisionamento de certificados TLS com Cert-Manager para todos os recursos de ingress
+  \item Executei testes de validação de infraestrutura de ponta a ponta após cada ciclo de provisionamento; detectei desvios antes da produção
+  \item Apliquei gates de segurança no CI/CD com limites de vulnerabilidade; pipelines falhavam quando os limites eram excedidos
+  \item Centralizei o rastreamento de vulnerabilidades no DefectDojo para acompanhar a remediação
+  \item Depurei problemas de runtime no Kubernetes — CrashLoopBackOff, ImagePullBackOff, falhas de agendamento
+  \item Escrevi runbooks e documentação de implantação; relatórios de validação mantiveram o histórico
+  \item Participei de discussões pré-venda com clientes potenciais sobre opções de arquitetura
+  \item Configurei servidores MCP para assistentes de IA consultarem dados de Kubernetes, CI/CD e monitoramento
+  \item Incorporei assistentes de IA aos fluxos diários para análise de logs, triagem de incidentes e diagnóstico
+  \item Usei ferramentas de IA para acelerar o desenvolvimento em Terraform e Ansible; menos erros de configuração
+  \item Criei regras de proteção de branch com revisões obrigatórias e verificações automatizadas de pipeline
+  \item Conectei o Alertmanager ao Jira; alertas geram tickets de serviço automaticamente
+  \item Segurança da cadeia de suprimentos: geração de SBOM, assinatura de imagens com Cosign e rastreamento de dependências
+  \item Implantei o Falco para segurança em runtime nas cargas de trabalho Kubernetes
+\end{itemize}
+\tagline{Kubernetes · Docker · Helm · ArgoCD · GitLab CI/CD · Terraform · AWS · GitLeaks · Semgrep · Trivy · OPA Gatekeeper · Kyverno · DefectDojo · Prometheus · Grafana · Istio · HashiCorp Vault · Harbor}
+\vspace{1pt}
+\vspace{3pt}
+\cventry{Engenheiro DevOps}{DOPIFY SOFTWARE \& TECHNOLOGIES}{Abr 2024 – Jan 2024}
+\begin{itemize}
+  \item Projetei pipelines CI/CD para várias equipes com SAST, SCA e escaneamento de segredos em cada build
+  \item Automatizei o provisionamento de servidores em dev, staging e produção com Ansible; eliminei desvios manuais
+  \item Configurei o Flux CD para infraestrutura orientada a GitOps; ambientes declarativos e auditáveis
+  \item Implantei o Grafana Loki para agregação centralizada de logs; análise de causa raiz mais rápida
+  \item Implantações sem downtime com estratégias blue-green e canary usando overlays Kustomize
+  \item Configurei o Nginx Ingress Controller com terminação TLS para roteamento externo
+  \item Provisionei runners GitLab auto-hospedados com executor Docker; filas de CI diminuíram
+  \item O Alertmanager encaminhou incidentes para Slack e e-mail; as pessoas certas acionadas no momento certo
+  \item Automatizei scripts de teste para validar o estado da infraestrutura após o provisionamento
+  \item Gerenciei a governança dos pipelines e o planejamento de cutover para releases de produção
+  \item Rastreei degradação de desempenho por meio de logs de sistema e aplicação
+  \item Documentei a arquitetura de infraestrutura, procedimentos de implantação e problemas conhecidos
+  \item Proteção de branches Git com revisões obrigatórias e status checks; gates de qualidade antes do merge
+\end{itemize}
+\tagline{AWS · Kubernetes · Docker · Terraform · Ansible · Flux CD · Grafana · Prometheus · GitLab CI/CD · HashiCorp Vault · Trivy · SonarQube · Kustomize · Nginx · Alertmanager}
+\vspace{1pt}
+\vspace{3pt}
+\cventry{Engenheiro DevOps}{GEO-TRACKING GROUP}{Out 2023 – Abr 2022}
+\begin{itemize}
+  \item Reconstruí pipelines CI/CD; tempo de implantação de dias para horas em mais de 15 microsserviços
+  \item Reduzi o tamanho das imagens Docker em 60\% com builds multi-stage; tempos de pull e custos de armazenamento caíram
+  \item Provisionei infraestrutura AWS com módulos Terraform; versionada e reproduzível
+  \item Integrei o SonarQube para verificações automatizadas de qualidade de código e acompanhamento de débito técnico
+  \item Escrevi regras de alerta no Prometheus para detecção proativa; quedas não planejadas caíram 40\%
+  \item Automatizei atualizações de dependências e patches de segurança via GitOps em mais de 200 dependências
+  \item Gerenciei imagens Docker e manifests Kubernetes no Nexus como fonte única de verdade
+  \item Automatizei rotinas de backup de banco de dados com recuperação point-in-time para PostgreSQL e MySQL
+  \item Reforcei a segurança dos pods com SecurityContext e segmentação de rede via IPTables/UFW
+  \item Criei bibliotecas compartilhadas do Jenkins reutilizáveis para padronizar templates de pipeline
+  \item Executei testes de instalação e upgrade; documentei resultados e sinalizei desvios
+  \item Monitorei capacidade de armazenamento e métricas de desempenho; ajustei configurações para disponibilidade
+  \item Respondi a incidentes e escrevi relatórios pós-incidente com etapas de remediação
+  \item Integrei o LDAP para autenticação centralizada
+\end{itemize}
+\tagline{Jenkins · Docker · Kubernetes · Terraform · Ansible · ArgoCD · SonarQube · Nexus · Prometheus · Grafana · Python · Bash · AWS · PostgreSQL · Cert Manager}
+\vspace{1pt}
+\vspace{3pt}
+\cventry{Administrador de Sistemas}{DIVERSAS ORGANIZAÇÕES}{Jan 2022 – Fev 2016}
+\begin{itemize}
+  \item Administrei servidores Linux (RHEL, Ubuntu, Debian) — patches, atualizações de segurança e tuning
+  \item Automatizei o provisionamento de VMs com Ansible; tempo de configuração de novos ambientes diminuiu
+  \item Administrei roteadores, switches e firewalls; mantive políticas de rede
+  \item Configurei compartilhamento de arquivos NFS para acesso centralizado ao armazenamento entre equipes
+  \item Configurei DNS, DHCP e serviços de rede internos
+  \item Projetei e testei procedimentos de recuperação de desastres com validação regular de backups
+  \item Administrei MySQL e PostgreSQL — backup, recuperação e otimização de desempenho
+  \item Configurei regras de firewall IPTables e UFW para segmentar a rede e restringir acessos
+  \item Implantei servidores web Apache e Nginx para aplicações internas e externas
+  \item Integrei o Active Directory para autenticação centralizada em Linux/Windows
+  \item Gerenciei contas de usuários, chaves SSH e políticas de sudo em ambientes corporativos
+  \item Prestei suporte L2/L3 com análise de causa raiz
+  \item Auxiliei usuários finais com problemas de hardware, software e rede; conduzi treinamentos
+  \item Mantive a documentação de processos de TI, configurações de rede e troubleshooting
+  \item Configurei sistemas de armazenamento sobre IPv4 com endereçamento e roteamento adequados
+  \item Trabalhei com equipes técnicas para planejar melhorias de infraestrutura e automação
+  \item Automatizei fluxos de alerta para ticket com resolução gerenciada por SLA
+\end{itemize}
+\tagline{Linux · DHCP · DNS · Active Directory · MySQL · PostgreSQL · VMware · KVM · Ansible · Bash · VPN · Firewalls · NFS · Apache · Nginx}
+\vspace{1pt}
+\section*{Formação}
+\textbf{Bacharelado}\par
+\tagline{Tecnologia da Informação (Redes e Serviços de Computação) · I.S.E.T. · 2011 – 2014}
+\textbf{Ensino Médio}\par
+\tagline{Ciência da Computação · 2010 – 2011}
+\section*{Idiomas}
+Árabe (Nativo), Francês (Profissional), Inglês (Profissional)\par
+\section*{Principais Conquistas}
+\begin{itemize}
+  \item Arquitetura de segurança zero-trust no Kubernetes
+  \item Escaneamento automatizado de segurança nos pipelines CI/CD
+  \item GitOps com ArgoCD \& Flux CD
+  \item Alta disponibilidade com PDB e escalonamento automático
+  \item Stack completa de monitoramento e alertas
+\end{itemize}
+\vspace{6pt}\hrule\vspace{3pt}
+{\footnotesize\color{graytext} Análise de logs assistida por IA · triagem de incidentes · diagnóstico de infraestrutura · servidores MCP\par}
+\end{document}
