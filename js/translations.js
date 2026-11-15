@@ -135,7 +135,8 @@ const i18n = {
     locationText: "Bela Vista, São Paulo – Brazil",
     footer: "AI-assisted log analysis · incident triage · infrastructure diagnostics · MCP servers",
     qrWhatsapp: "WhatsApp",
-    qrPortfolio: "Portfolio"
+    qrPortfolio: "Portfolio",
+    qrLinkedin: "LinkedIn"
   },
 
   fr: {
@@ -267,7 +268,8 @@ const i18n = {
     locationText: "Bela Vista, São Paulo – Brésil",
     footer: "Analyse de logs assistée par IA · triage d'incidents · diagnostic d'infrastructure · serveurs MCP",
     qrWhatsapp: "WhatsApp",
-    qrPortfolio: "Portfolio"
+    qrPortfolio: "Portfolio",
+    qrLinkedin: "LinkedIn"
   },
 
   ar: {
@@ -399,7 +401,8 @@ const i18n = {
     locationText: "بيلا فيستا، ساو باولو – البرازيل",
     footer: "تحليل السجلات بمساعدة الذكاء الاصطناعي · فرز الحوادث · تشخيص البنية التحتية · خوادم MCP",
     qrWhatsapp: "واتساب",
-    qrPortfolio: "ملف الأعمال"
+    qrPortfolio: "ملف الأعمال",
+    qrLinkedin: "لينكدإن"
   },
 
   pt: {
@@ -531,6 +534,7 @@ const i18n = {
     locationText: "Bela Vista, São Paulo – Brasil",
     footer: "Análise de logs assistida por IA · triagem de incidentes · diagnóstico de infraestrutura · servidores MCP",
     qrWhatsapp: "WhatsApp",
-    qrPortfolio: "Portfólio"
+    qrPortfolio: "Portfólio",
+    qrLinkedin: "LinkedIn"
   }
 };

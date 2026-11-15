@@ -141,6 +141,9 @@
     if (waLink) waLink.setAttribute('aria-label', t.qrWhatsapp);
     var portfolioLink = document.getElementById('qr-portfolio-link');
     if (portfolioLink) portfolioLink.setAttribute('aria-label', t.qrPortfolio);
+    setText('qr-linkedin-label', t.qrLinkedin);
+    var linkedinLink = document.getElementById('qr-linkedin-link');
+    if (linkedinLink) linkedinLink.setAttribute('aria-label', t.qrLinkedin);
 
     /* PDF download follows the active locale */
     var pdfLink = document.getElementById('downloadPdf');
