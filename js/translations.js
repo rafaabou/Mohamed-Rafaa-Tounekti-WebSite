@@ -132,7 +132,7 @@ const i18n = {
         tech: TECH[3]
       }
     ],
-    locationText: "Bela Vista, São Paulo – Brazil",
+    locationText: "Based in São Paulo (CPF Ready) – Brazil",
     footer: "AI-assisted log analysis · incident triage · infrastructure diagnostics · MCP servers",
     qrWhatsapp: "WhatsApp",
     qrPortfolio: "Portfolio",
@@ -265,7 +265,7 @@ const i18n = {
         tech: TECH[3]
       }
     ],
-    locationText: "Bela Vista, São Paulo – Brésil",
+    locationText: "Basé à São Paulo (CPF Ready) – Brésil",
     footer: "Analyse de logs assistée par IA · triage d'incidents · diagnostic d'infrastructure · serveurs MCP",
     qrWhatsapp: "WhatsApp",
     qrPortfolio: "Portfolio",
@@ -398,7 +398,7 @@ const i18n = {
         tech: TECH[3]
       }
     ],
-    locationText: "بيلا فيستا، ساو باولو – البرازيل",
+    locationText: "مقيم في ساو باولو (CPF جاهز) – البرازيل",
     footer: "تحليل السجلات بمساعدة الذكاء الاصطناعي · فرز الحوادث · تشخيص البنية التحتية · خوادم MCP",
     qrWhatsapp: "واتساب",
     qrPortfolio: "ملف الأعمال",
@@ -531,7 +531,7 @@ const i18n = {
         tech: TECH[3]
       }
     ],
-    locationText: "Bela Vista, São Paulo – Brasil",
+    locationText: "Baseado em São Paulo (CPF Pronto) – Brasil",
     footer: "Análise de logs assistida por IA · triagem de incidentes · diagnóstico de infraestrutura · servidores MCP",
     qrWhatsapp: "WhatsApp",
     qrPortfolio: "Portfólio",
