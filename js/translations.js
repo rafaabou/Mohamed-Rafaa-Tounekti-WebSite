@@ -135,7 +135,7 @@ const i18n = {
     locationText: "Based in São Paulo (CPF Ready) – Brazil",
     footer: "AI-assisted log analysis · incident triage · infrastructure diagnostics · MCP servers",
     qrWhatsapp: "WhatsApp",
-    qrPortfolio: "Portfolio",
+    qrPortfolio: "Website",
     qrLinkedin: "LinkedIn"
   },
 
@@ -268,7 +268,7 @@ const i18n = {
     locationText: "Basé à São Paulo (CPF Ready) – Brésil",
     footer: "Analyse de logs assistée par IA · triage d'incidents · diagnostic d'infrastructure · serveurs MCP",
     qrWhatsapp: "WhatsApp",
-    qrPortfolio: "Portfolio",
+    qrPortfolio: "Site web",
     qrLinkedin: "LinkedIn"
   },
 
@@ -401,7 +401,7 @@ const i18n = {
     locationText: "مقيم في ساو باولو (CPF جاهز) – البرازيل",
     footer: "تحليل السجلات بمساعدة الذكاء الاصطناعي · فرز الحوادث · تشخيص البنية التحتية · خوادم MCP",
     qrWhatsapp: "واتساب",
-    qrPortfolio: "ملف الأعمال",
+    qrPortfolio: "الموقع الإلكتروني",
     qrLinkedin: "لينكدإن"
   },
 
@@ -534,7 +534,7 @@ const i18n = {
     locationText: "Baseado em São Paulo (CPF Pronto) – Brasil",
     footer: "Análise de logs assistida por IA · triagem de incidentes · diagnóstico de infraestrutura · servidores MCP",
     qrWhatsapp: "WhatsApp",
-    qrPortfolio: "Portfólio",
+    qrPortfolio: "Site",
     qrLinkedin: "LinkedIn"
   }
 };
