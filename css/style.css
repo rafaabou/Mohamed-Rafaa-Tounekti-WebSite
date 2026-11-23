@@ -897,8 +897,8 @@ body.rtl .name-title {
   /* FR/PT run slightly long: tighten bullets a touch */
   html[lang="fr"] .exp-desc li, html[lang="pt-BR"] .exp-desc li { line-height: 1.12; }
 
-  /* PT/AR have the longest contact strings: keep the extra work-authorization
-     item on two lines so the footer still fits on page 2 */
+  /* PT/AR have the longest combined location/work text: keep the contact pill
+     on two lines so the footer still fits on page 2 */
   html[lang="pt-BR"] .contact-row,
   html[lang="ar"] .contact-row { font-size: 8.5pt; gap: 2pt 5pt; }
 

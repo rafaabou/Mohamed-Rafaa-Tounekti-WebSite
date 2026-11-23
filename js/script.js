@@ -132,7 +132,6 @@
 
     /* location & work authorization */
     setText('location-text', t.locationText);
-    setText('work-permit-text', t.workPermit);
 
     /* footer */
     setText('footer-text', t.footer);

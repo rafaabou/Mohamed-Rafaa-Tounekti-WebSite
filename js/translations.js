@@ -133,8 +133,7 @@ const i18n = {
         tech: TECH[3]
       }
     ],
-    locationText: "Based in São Paulo (CPF Ready) – Brazil",
-    workPermit: "CPF Ready · Eligible for In-Country Work Permit",
+    locationText: "Based in São Paulo – Brazil · CPF Ready · Eligible for In-Country Work Permit",
     footer: "AI-assisted log analysis · incident triage · infrastructure diagnostics · MCP servers",
     qrWhatsapp: "WhatsApp",
     qrPortfolio: "Website",
@@ -268,8 +267,7 @@ const i18n = {
         tech: TECH[3]
       }
     ],
-    locationText: "Basé à São Paulo (CPF Ready) – Brésil",
-    workPermit: "CPF prêt · Éligible au permis de travail sur place",
+    locationText: "Basé à São Paulo – Brésil · CPF prêt · Éligible au permis de travail sur place",
     footer: "Analyse de logs assistée par IA · triage d'incidents · diagnostic d'infrastructure · serveurs MCP",
     qrWhatsapp: "WhatsApp",
     qrPortfolio: "Site web",
@@ -403,8 +401,7 @@ const i18n = {
         tech: TECH[3]
       }
     ],
-    locationText: "مقيم في ساو باولو (CPF جاهز) – البرازيل",
-    workPermit: "جاهز برقم CPF · مؤهل للحصول على تصريح عمل داخل البلاد",
+    locationText: "مقيم في ساو باولو – البرازيل · جاهز برقم CPF · مؤهل للحصول على تصريح عمل داخل البلاد",
     footer: "تحليل السجلات بمساعدة الذكاء الاصطناعي · فرز الحوادث · تشخيص البنية التحتية · خوادم MCP",
     qrWhatsapp: "واتساب",
     qrPortfolio: "الموقع الإلكتروني",
@@ -538,8 +535,7 @@ const i18n = {
         tech: TECH[3]
       }
     ],
-    locationText: "Baseado em São Paulo (CPF Pronto) – Brasil",
-    workPermit: "CPF Pronto · Elegível para Permissão de Trabalho no País",
+    locationText: "Baseado em São Paulo – Brasil · CPF Pronto · Elegível para Permissão de Trabalho no País",
     footer: "Análise de logs assistida por IA · triagem de incidentes · diagnóstico de infraestrutura · servidores MCP",
     qrWhatsapp: "WhatsApp",
     qrPortfolio: "Site",
