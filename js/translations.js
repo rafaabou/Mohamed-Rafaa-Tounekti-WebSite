@@ -22,6 +22,7 @@ const i18n = {
     langArabic: "Arabic", langArabicLevel: "Native",
     langFrench: "French", langFrenchLevel: "Professional",
     langEnglish: "English", langEnglishLevel: "Professional",
+    langPortuguese: "Portuguese", langPortugueseLevel: "Basic / Learning (A2)",
     achievements: "Key Achievements",
     ach: [
       "Zero-trust security architecture on Kubernetes",
@@ -133,6 +134,7 @@ const i18n = {
       }
     ],
     locationText: "Based in São Paulo (CPF Ready) – Brazil",
+    workPermit: "CPF Ready · Eligible for In-Country Work Permit",
     footer: "AI-assisted log analysis · incident triage · infrastructure diagnostics · MCP servers",
     qrWhatsapp: "WhatsApp",
     qrPortfolio: "Website",
@@ -155,6 +157,7 @@ const i18n = {
     langArabic: "Arabe", langArabicLevel: "Natif",
     langFrench: "Français", langFrenchLevel: "Professionnel",
     langEnglish: "Anglais", langEnglishLevel: "Professionnel",
+    langPortuguese: "Portugais", langPortugueseLevel: "Débutant / En cours d'apprentissage (A2)",
     achievements: "Réalisations Clés",
     ach: [
       "Architecture de sécurité Zero-Trust sur Kubernetes",
@@ -266,6 +269,7 @@ const i18n = {
       }
     ],
     locationText: "Basé à São Paulo (CPF Ready) – Brésil",
+    workPermit: "CPF prêt · Éligible au permis de travail sur place",
     footer: "Analyse de logs assistée par IA · triage d'incidents · diagnostic d'infrastructure · serveurs MCP",
     qrWhatsapp: "WhatsApp",
     qrPortfolio: "Site web",
@@ -288,6 +292,7 @@ const i18n = {
     langArabic: "العربية", langArabicLevel: "لغة أم",
     langFrench: "الفرنسية", langFrenchLevel: "احترافي",
     langEnglish: "الإنجليزية", langEnglishLevel: "احترافي",
+    langPortuguese: "البرتغالية", langPortugueseLevel: "أساسي / في طور التعلّم (A2)",
     achievements: "الإنجازات الرئيسية",
     ach: [
       "بنية أمان Zero-Trust على Kubernetes",
@@ -399,6 +404,7 @@ const i18n = {
       }
     ],
     locationText: "مقيم في ساو باولو (CPF جاهز) – البرازيل",
+    workPermit: "جاهز برقم CPF · مؤهل للحصول على تصريح عمل داخل البلاد",
     footer: "تحليل السجلات بمساعدة الذكاء الاصطناعي · فرز الحوادث · تشخيص البنية التحتية · خوادم MCP",
     qrWhatsapp: "واتساب",
     qrPortfolio: "الموقع الإلكتروني",
@@ -421,6 +427,7 @@ const i18n = {
     langArabic: "Árabe", langArabicLevel: "Nativo",
     langFrench: "Francês", langFrenchLevel: "Profissional",
     langEnglish: "Inglês", langEnglishLevel: "Profissional",
+    langPortuguese: "Português", langPortugueseLevel: "Básico / Em aprendizado (A2)",
     achievements: "Principais Conquistas",
     ach: [
       "Arquitetura de segurança zero-trust no Kubernetes",
@@ -532,6 +539,7 @@ const i18n = {
       }
     ],
     locationText: "Baseado em São Paulo (CPF Pronto) – Brasil",
+    workPermit: "CPF Pronto · Elegível para Permissão de Trabalho no País",
     footer: "Análise de logs assistida por IA · triagem de incidentes · diagnóstico de infraestrutura · servidores MCP",
     qrWhatsapp: "WhatsApp",
     qrPortfolio: "Site",

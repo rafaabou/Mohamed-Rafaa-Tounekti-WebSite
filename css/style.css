@@ -816,7 +816,8 @@ body.rtl .name-title {
   }
   .skill-tag.highlight { border-color: #999; font-weight: 600; }
 
-  .lang-item { font-size: 9pt; padding: 1pt 0; border-color: #ddd; }
+  .lang-item { font-size: 9pt; padding: 1pt 0; border-color: #ddd; gap: 6pt; }
+  .lang-level { font-size: 8pt; }
   .achievement-list li {
     font-size: 9pt;
     padding: 0.3pt 0 0.3pt 7pt;
@@ -895,6 +896,11 @@ body.rtl .name-title {
 
   /* FR/PT run slightly long: tighten bullets a touch */
   html[lang="fr"] .exp-desc li, html[lang="pt-BR"] .exp-desc li { line-height: 1.12; }
+
+  /* PT/AR have the longest contact strings: keep the extra work-authorization
+     item on two lines so the footer still fits on page 2 */
+  html[lang="pt-BR"] .contact-row,
+  html[lang="ar"] .contact-row { font-size: 8.5pt; gap: 2pt 5pt; }
 
   /* EN runs short: fill page 2 with more generous leading and spacing */
   html[lang="en"] .profile-card p { font-size: 10.5pt !important; line-height: 1.35 !important; }

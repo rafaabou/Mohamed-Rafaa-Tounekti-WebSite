@@ -58,6 +58,8 @@
     setText('lang-french-level', t.langFrenchLevel);
     setText('lang-english-name', t.langEnglish);
     setText('lang-english-level', t.langEnglishLevel);
+    setText('lang-portuguese-name', t.langPortuguese);
+    setText('lang-portuguese-level', t.langPortugueseLevel);
 
     /* achievements */
     setText('ach-title', t.achievements);
@@ -128,8 +130,9 @@
       observeFadeIn();
     }
 
-    /* location */
+    /* location & work authorization */
     setText('location-text', t.locationText);
+    setText('work-permit-text', t.workPermit);
 
     /* footer */
     setText('footer-text', t.footer);
