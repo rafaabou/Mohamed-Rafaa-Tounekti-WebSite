@@ -1,8 +1,9 @@
 name: Deploy to GitHub Pages
 
+# GitHub Pages is not enabled on this repo, so automatic runs fail at
+# configure-pages. Keep the workflow for manual use after Pages is enabled.
 on:
-  push:
-    branches: [main]
+  workflow_dispatch:
 
 permissions:
   contents: read

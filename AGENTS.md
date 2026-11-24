@@ -49,6 +49,8 @@ CSS/JS links have `?v=N` query params. Increment `v` by 1 when modifying those f
 - Theme toggle button dynamically updates `aria-label` ("Switch to light/dark mode")
 - Profile photo click opens a lightbox overlay
 
-## GitHub Pages
+## Deployment
 
-A deploy workflow exists at `.github/workflows/deploy.yml`. Push to `main` to auto-deploy.
+The live site is served through Cloudflare. GitHub Pages is not enabled on the
+repo, so `.github/workflows/deploy.yml` is manual-only (`workflow_dispatch`);
+enable Pages before using it.
