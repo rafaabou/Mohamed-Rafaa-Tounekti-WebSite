@@ -267,9 +267,8 @@ body.rtl .name-title {
 
 /* ── QR codes ── */
 .qr-strip {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 0.8rem 1.2rem;
   margin: -0.8rem 0 1.8rem; /* pull the codes closer to the contact pill */
 }
@@ -277,6 +276,7 @@ body.rtl .name-title {
 .qr-item {
   display: inline-flex;
   align-items: center;
+  justify-content: center;
   gap: 0.5rem;
   padding: 0.4rem 0.7rem;
   border: 1px solid var(--contact-border);
@@ -644,6 +644,9 @@ body.rtl .name-title {
   .cv-wrapper {
     padding: 1rem;
   }
+  .qr-strip {
+    grid-template-columns: 1fr;
+  }
   .qr-item {
     padding: 0.3rem 0.5rem;
     font-size: 0.7rem;
@@ -723,8 +726,8 @@ body.rtl .name-title {
   .contact-row i { width: 8pt; color: #555; }
 
   .qr-strip {
-    display: flex;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
     gap: 10pt;
     margin: 0 0 5pt;
     page-break-inside: avoid;
@@ -732,6 +735,7 @@ body.rtl .name-title {
   .qr-item {
     display: inline-flex;
     align-items: center;
+    justify-content: center;
     gap: 4pt;
     padding: 2pt 5pt;
     border: 0.5pt solid #bbb;
