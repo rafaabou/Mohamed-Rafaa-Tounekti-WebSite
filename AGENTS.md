@@ -51,6 +51,5 @@ CSS/JS links have `?v=N` query params. Increment `v` by 1 when modifying those f
 
 ## Deployment
 
-The live site is served through Cloudflare. GitHub Pages is not enabled on the
-repo, so `.github/workflows/deploy.yml` is manual-only (`workflow_dispatch`);
-enable Pages before using it.
+The live site is served through Cloudflare. GitHub Pages is not enabled, so the
+repo has no deploy workflow; there is nothing to run on push.
