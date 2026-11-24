@@ -1,12 +1,20 @@
 (function () {
+  /* localStorage throws when storage is blocked; the page must still render. */
+  function getStore(key) {
+    try { return localStorage.getItem(key); } catch (e) { return null; }
+  }
+  function setStore(key, val) {
+    try { localStorage.setItem(key, val); } catch (e) {}
+  }
+
   /* ── Current language (pt-BR by default, explicit choice wins) ── */
-  var storedLang = localStorage.getItem('cv-lang');
-  let currentLang = i18n[storedLang] ? storedLang : 'pt';
+  var storedLang = getStore('cv-lang');
+  let currentLang = Object.prototype.hasOwnProperty.call(i18n, storedLang) ? storedLang : 'pt';
 
   /* ── I18n: apply translations to DOM ── */
   function applyLang(lang) {
     currentLang = lang;
-    localStorage.setItem('cv-lang', lang);
+    setStore('cv-lang', lang);
 
     const t = i18n[lang];
     if (!t) return;
@@ -167,7 +175,7 @@
 
   function setTheme(theme) {
     document.body.classList.toggle('light', theme === 'light');
-    localStorage.setItem('cv-theme', theme);
+    setStore('cv-theme', theme);
     var t = i18n[currentLang];
     if (themeLabel && t) {
       themeLabel.textContent = theme === 'light' ? t.themeLight : t.themeDark;
@@ -180,7 +188,7 @@
     }
   }
 
-  var savedTheme = localStorage.getItem('cv-theme');
+  var savedTheme = getStore('cv-theme');
   if (savedTheme) setTheme(savedTheme);
 
   if (toggle) {
